@@ -1,8 +1,8 @@
-# Cross Ring Protocol - API
+# Smart Rings Protocol - API
 
 ## Overview
 
-The Cross Ring Protocol - API is a critical component in the Cross Ring ecosystem, designed to interact with the WebApp. Its primary functions are to generate signatures and verify solvency proofs. The custom signature generation repository is in a separate private repository, reserved for future projects. It's currently awaiting an audit to ensure its security and reliability before being integrated into upcoming projects.
+The Smart Rings Protocol - API is a critical component in the Smart Rings ecosystem, designed to interact with the WebApp. Its primary functions are to generate signatures and verify solvency proofs. The custom signature generation repository is in a separate private repository, reserved for future projects. It's currently awaiting an audit to ensure its security and reliability before being integrated into upcoming projects.
 
 ## Features
 
@@ -12,7 +12,7 @@ The Cross Ring Protocol - API is a critical component in the Cross Ring ecosyste
 ## Security Notice
 
 ### Important
-The current implementation of the Cross Ring Protocol - API requires users to input their private keys directly. This input is then transmitted over an unencrypted channel. Given the sensitive nature of private keys, this method poses significant security risks if used in a production environment. As such, it is highly recommended to use burner private keys (keys created specifically for testing and without access to actual funds or valuable assets) when interacting with this API.
+The current implementation of the Smart Rings Protocol - API requires users to input their private keys directly. This input is then transmitted over an unencrypted channel. Given the sensitive nature of private keys, this method poses significant security risks if used in a production environment. As such, it is highly recommended to use burner private keys (keys created specifically for testing and without access to actual funds or valuable assets) when interacting with this API.
 
 ### Recommendations
 - **Limited Use**: This API should only be used for testing purposes.
